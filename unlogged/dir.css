@@ -1,0 +1,76 @@
+.main-dir {
+    font-family:'Helvetica Neue', 'Lucida Grande', Arial;
+    -webkit-font-smoothing: antialiased;
+}
+
+.file-list{
+    border-collapse:collapse;
+}
+
+.file-list th{
+    background-color:gray;
+    margin:0px;
+}
+
+.file-list tr{
+    background-color:#EEE;
+    /* border:1px solid #EEE; */
+}
+
+.file-list td{
+    padding:3px;
+    margin:0px;
+}
+
+.file-list tr:hover{
+    background-color:#fff;
+}
+
+.name{
+    min-width:200px;
+}
+
+.dir-name{
+    font-weight:bold;
+}
+
+.ext-dir{
+    font-weight:bold;
+    font-size:80%;
+    text-align:center;
+}
+
+.ext{
+    min-width:50px;
+}
+
+.ext-name{
+    color:gray;
+}
+
+.size{
+    text-align:right;
+    min-width:100px;
+}
+
+.date{
+    width:155px;
+}
+
+.date{
+    text-align:center;
+    width:160px;
+}
+
+.info{
+    min-width:80px;
+}
+
+.actions{
+    min-width:80px;
+}
+
+a{
+    text-decoration:none;
+    color: black
+}

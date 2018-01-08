@@ -1,0 +1,37 @@
+{
+  "name": "turbo-server",
+  "description": "Fast server of static content - including Pug(Jade) and Stylus",
+  "version": "0.0.1",
+  "author": "Codenautas <codenautas@googlegroups.com>",
+  "license": "MIT",
+  "main": "server/turbo-server.js",
+  "files": [
+    "client",
+    "install",
+    "server",
+    "unlogged"
+  ],
+  "dependencies": {
+    "serve-index": "~1.9.1",
+    "backend-plus": "~0.18.54",
+    "js-to-html": "~0.9.3"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --bail --check-leaks test/",
+    "start": "node server/turbo-server.js",
+    "report": "istanbul report",
+    "all": "npm test && npm run test-cov && npm run report && qa-control . -v"
+  },
+  "qa-control": {
+    "package-version": "0.3.0",
+    "coverage": 90,
+    "run-in": "server",
+    "stability": "extending",
+    "type": "app",
+    "ecmaVersion": 6
+  }
+}

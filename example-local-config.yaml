@@ -1,0 +1,51 @@
+server:
+  port: 3003
+  base-url: /
+client-setup:
+  lang: es
+  menu: false
+turbo:
+  translate:
+    jade: html
+    styl: css
+  serve-content:
+    allowedExts: 
+      - bmp
+      - gif
+      - ico
+      - jpg
+      - jpeg
+      - png
+      - svg
+      - jade
+      - html
+      - htm
+      - css
+      - styl
+      - stylus
+      - pug
+      - eot
+      - ttf
+      - woff
+      - woff2
+      - txt
+      - md
+      - js
+      - json
+      - yaml
+      - yml
+      - manifest
+      - appcache
+      - pdf
+      - ""
+    jade:
+      modules:
+        scripts: []
+      skin: ""
+      skinUrl: ""
+      formTitle: turbo-server generic jade title
+      lang: es
+      flash: {}
+      extOriginal: html
+  paths:
+    c_temp: c:\temp\

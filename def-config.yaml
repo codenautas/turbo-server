@@ -1,0 +1,13 @@
+server:
+  port: 3003
+  base-url: /
+  session-store: memory
+nologin: true
+nodb: true
+client-setup:
+  lang: es
+  menu: false
+turbo:
+  translate: {}
+  serve-content: {}
+  paths: false
